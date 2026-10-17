@@ -1,6 +1,6 @@
 # Lunar Lander RL: a reproducible benchmark
 
-[![CI](https://github.com/bartkw12/Reinforcement-Learning-for-Rocket-Landing-Simulator/actions/workflows/ci.yml/badge.svg)](https://github.com/bartkw12/Reinforcement-Learning-for-Rocket-Landing-Simulator/actions/workflows/ci.yml)
+[![CI](https://github.com/bartkw12/lunar-lander-rl/actions/workflows/ci.yml/badge.svg)](https://github.com/bartkw12/lunar-lander-rl/actions/workflows/ci.yml)
 ![Python 3.10 | 3.11](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
@@ -61,8 +61,8 @@ episodes above each return threshold. No method dominates at every threshold.*
 ## Quickstart
 
 ```bash
-git clone https://github.com/bartkw12/Reinforcement-Learning-for-Rocket-Landing-Simulator.git
-cd Reinforcement-Learning-for-Rocket-Landing-Simulator
+git clone https://github.com/bartkw12/lunar-lander-rl.git
+cd lunar-lander-rl
 python -m venv .venv && source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -e ".[dev,sb3,media]"
 pytest -m "not slow"                                      # unit and integration tests
