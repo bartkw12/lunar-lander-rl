@@ -48,7 +48,7 @@ dev = [
 ]
 
 [project.urls]
-Repository = "https://github.com/bartkw12/Reinforcement-Learning-for-Rocket-Landing-Simulator"
+Repository = "https://github.com/bartkw12/lunar-lander-rl"
 
 [tool.hatch.version]
 path = "src/lunarlander_rl/__init__.py"
